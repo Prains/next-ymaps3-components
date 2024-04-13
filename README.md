@@ -1,7 +1,7 @@
 ## next-ymaps3-components
 
 
-## EM
+## EN
 
 ## Description
 
