@@ -9,3 +9,5 @@ export * from "./YMapClusterer/YMapClusterer";
 export * from "./YMapFeatureDataSource/YMapFeatureDataSource";
 export * from "./YMapLayer/YMapLayer";
 export * from "./YandexMapApiProvider/YandexMapApiProviders";
+export * from "./YMapLayer/YMapLayer";
+export * from "./YandexMapComponentsProvider/YandexMapComponentsProvider";

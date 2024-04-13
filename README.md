@@ -22,11 +22,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ru">
       <body>
-        <YandexMapApiProvider apiKey="YOUR_API_KEY">
+        <YandexMapApiProvider apiKey="YOUR_API_KEY"/>
           <YandexMapComponentsProvider>
             {children}
           </YandexMapComponentsProvider>
-        </YandexMapApiProvider>
       </body>
     </html>
   );
@@ -128,11 +127,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ru">
       <body>
-        <YandexMapApiProvider apiKey="YOUR_API_KEY">
+        <YandexMapApiProvider apiKey="YOUR_API_KEY"/>
           <YandexMapComponentsProvider>
             {children}
           </YandexMapComponentsProvider>
-        </YandexMapApiProvider>
       </body>
     </html>
   );
