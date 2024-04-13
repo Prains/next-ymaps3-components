@@ -1,9 +1,9 @@
 "use client";
 import { useMapComponents } from "../..";
 import { useMemo } from "react";
-import { Point, Coordinates } from "../..";
+import type { Point, Coordinates } from "../..";
 
-interface YMapClustererProps {
+type YMapClustererProps = {
   gridSize: number;
   points: Point[];
   marker: (feature: Point) => JSX.Element;

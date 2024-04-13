@@ -1,7 +1,7 @@
 "use client";
 import { useMapComponents } from "../..";
 
-interface YMapControlProps {
+type YMapControlProps = {
   children: React.ReactNode;
   className?: string;
 }

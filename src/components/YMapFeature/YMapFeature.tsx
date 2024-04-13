@@ -1,8 +1,8 @@
 "use client";
 import { useMapComponents } from "../..";
-import { Coordinates } from "../..";
+import type { Coordinates } from "../..";
 
-interface YMapFeatureProps {
+type YMapFeatureProps = {
   id?: string;
   source?: string;
   geometry: {

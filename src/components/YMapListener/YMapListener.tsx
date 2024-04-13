@@ -1,8 +1,8 @@
 "use client";
 import { useMapComponents } from "../..";
-import { YMapListenerClickEvent, YMapListenerUpdateEvent } from "../..";
+import type { YMapListenerClickEvent, YMapListenerUpdateEvent } from "../..";
 
-interface YMapListenerProps {
+type YMapListenerProps = {
   layerId?: string;
   onUpdate?: (e: YMapListenerUpdateEvent) => void;
   onClick?: (object: any, event: YMapListenerClickEvent) => void;

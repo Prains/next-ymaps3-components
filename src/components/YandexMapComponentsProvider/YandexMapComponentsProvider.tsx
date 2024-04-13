@@ -3,9 +3,9 @@ import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import { YandexMapContext } from "../..";
 
-interface IProvider {
+type IProvider = {
   children: React.ReactNode;
-}
+};
 
 const YandexMapComponentsProvider = ({ children }: IProvider) => {
   const [mapModules, setMapModules] = useState<any>();

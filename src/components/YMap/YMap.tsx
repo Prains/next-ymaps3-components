@@ -4,7 +4,7 @@ import { YMapControls, YMapZoomControl } from "../..";
 import type { YMapLocation, MapMode, Position } from "../..";
 import { useMapBehaviors } from "../..";
 
-interface YMapProps {
+type YMapProps = {
   location: YMapLocation;
   mode?: MapMode;
   children: React.ReactNode;

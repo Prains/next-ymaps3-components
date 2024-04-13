@@ -2,7 +2,7 @@ import type { YMapBehavior } from "../..";
 import { create } from "zustand";
 
 // Определение типа для состояния
-interface MapBehaviorsState {
+type MapBehaviorsState {
   behaviors: YMapBehavior[];
   setBehaviors: (data: YMapBehavior[]) => void;
   removeBehavior: (behavior: YMapBehavior) => void;

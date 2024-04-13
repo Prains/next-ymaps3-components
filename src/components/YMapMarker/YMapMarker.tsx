@@ -3,7 +3,7 @@ import { useMapComponents } from "../..";
 import type { Coordinates, YMapMarkerEventHandler } from "../..";
 import { twMerge } from "tailwind-merge";
 
-interface YMapMarkerProps {
+type YMapMarkerProps = {
   coordinates: Coordinates;
   draggable?: boolean;
   id?: string;

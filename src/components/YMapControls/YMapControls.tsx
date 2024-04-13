@@ -1,8 +1,8 @@
 "use client";
 import { useMapComponents } from "../..";
-import { Orientation, Position } from "../..";
+import type { Orientation, Position } from "../..";
 
-interface YMapControlsProps {
+type YMapControlsProps = {
   position: Position;
   orientation?: Orientation;
   children: React.ReactNode;

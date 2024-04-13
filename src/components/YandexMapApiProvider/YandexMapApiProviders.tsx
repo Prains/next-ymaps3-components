@@ -1,8 +1,8 @@
 import Script from "next/script";
 
-interface YandexMapAPiProviderProps {
+type YandexMapAPiProviderProps = {
   apiKey: string;
-}
+};
 
 export const YandexMapApiProviders = ({ apiKey }: YandexMapAPiProviderProps) => {
   return (

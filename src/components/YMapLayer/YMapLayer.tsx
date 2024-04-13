@@ -2,7 +2,7 @@
 
 import { useMapComponents } from "../..";
 
-interface YMapLayerProps {
+type YMapLayerProps ={
   id?: string;
   type: "markers";
   zIndex: number;

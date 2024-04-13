@@ -2,7 +2,7 @@
 
 import { useMapComponents } from "../..";
 
-interface YMapFeatureDataSourceProps {
+type YMapFeatureDataSourceProps = {
   id: string;
 }
 
